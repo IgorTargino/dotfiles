@@ -1,0 +1,92 @@
+{
+  // Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.sideBar.location": "right",
+  
+  // Editor settings
+  "editor.wordWrap": "on",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 20,
+  "terminal.integrated.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "monospace, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 120],
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+    
+  // VSCode stuff
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  
+  // Emmet
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "material-icon-theme.folders.associations": {
+    "adapters" : "contract",
+    "grpc" : "pipe",
+    "kube" : "kubernetes",
+    "main" : "lib",
+    "websockets" : "pipe",
+    "implementations" : "core",
+    "protos" : "pipe",
+    "entities" : "class",
+    "kafka" : "pipe",
+    "use-cases" : "functions",
+    "migrations" : "tools",
+    "schemas" : "class",
+    "useCases" : "functions",
+    "eslint-config" : "tools",
+    "typeorm" : "database",
+    "_shared" : "shared",
+    "mappers" : "meta",
+    "fakes" : "mock",
+    "modules" : "components",
+    "subscribers" : "messages",
+    "domain" : "class",
+    "protocols" : "contract",
+    "infra" : "app",
+    "view-models" : "views",
+    "presentation" : "template",
+    "dtos" : "typescript",
+    "http" : "container",
+    "providers" : "include",
+    "factories" : "class",
+    "repositories" : "mappings"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+  "polacode.transparentBackground": true,
+  "polacode.shadow": "none",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false
+  },
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.confirmSync": false,
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "Tokyo Night",
+
+}
